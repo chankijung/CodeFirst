@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--
+    style tag는 왜 head 안에 선언되는가?
+
+    다른 태그에 넣으면 나중에 렌더링 될 수 있기 때문에...
+
+    클래스는 . 뒤에 이름!
+    아이디는 # 뒤에 이름
+    태그이름 > 클래스 > 아이디 순으로 우선순위 적용
+    하지만 css가 겹치게 되면 인라인이
+  -->
+  <style>
+      /* .title{
+        font-size: large;
+      }
+      #heading {
+        color: yellow;
+      } */
+      <!-- 컨트롤 k 컨트롤 c : 다중주석
+            컨트롤 k 컨트롤 u : 다중주석 해제
+        -->
+  </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,14 +46,22 @@
     <!-- closed tag
     vsc에서는 안닫아도 -->
 
-    <p class="" id="">
+    <p class="" id="heading">
       안녕하세요1
 
     </p>
-    <p>
+    <p style="font-size:24px; font-weight: bold;
+      color:darkblue">
       안녕하세요 2
     </p>
+    <!-- 인라인 방식 
+        세미콜론 ; 종결자 역할
+         -->
 
+    <p class="title" id="">
+      판다코딩 입니다~
+    </p>
+    <!-- 스타일 태그는 인라인말고 전체적으로  -->
     <a href="www.naver.com">
       네이버
     </a>
