@@ -1,0 +1,13 @@
+.font{
+  font: italic small-caps bold 12px/30px blast;
+  /* font-style: italic;
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: 50px;
+  line-height: 3rem;
+  font-family: blast; */
+}
+@font-face{
+  font-family: blast ;
+  src: url(./font/Dominos\ Blast.ttf);
+}

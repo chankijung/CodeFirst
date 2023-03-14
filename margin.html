@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+<link rel="stylesheet" href="./margin.css">
+<style>
+  h1{
+    margin: 0; 
+  }
+  p.class{
+    margin:0;
+  }
+</style>
+</head>
+<body>
+  <!--
+    margin, padding
+    여백인데... 다르게 이해될 수 있음.
+    widht 값이랑 상관없이 추가로 들어가는 것
+    
+
+  -->
+
+  <!--
+    margin 겹침, margin collapsing
+    마진겹침은 마진끼리 겹쳤을때 발생, 큰값을 따라감
+    마진 사이에 시각적효과(보더같은 것) 있으면 겹침 발생 안함
+    
+  --><p>판다코딩</p>
+  <div class="containor">
+    <div class="child">
+      판다코코코코
+    </div>
+    <h1>안녕하세</h1>
+    
+    <p class="class">판다판다</p>
+  </div>
+</body>
+</html>
