@@ -1,0 +1,47 @@
+.containor{
+  width: 400px;
+  height: 600px;
+  border: 1px solid black ;
+  font-size: 0px;
+  color: white;
+  font-weight: bold;
+}
+
+.top{
+  background-color: red;
+  width: 400px;
+  height: 200px;
+  font-size: 16px;
+}
+
+.left{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+ 
+  font-size: 16px;
+  
+
+}
+.right{
+  background-color: green;
+  width: 200px;
+  height: 200px;
+ 
+  font-size: 16px;
+
+}
+.bottom{
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  font-size: 16px;
+
+}
+.flexbox{
+  display: flex;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+
+}

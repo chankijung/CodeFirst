@@ -1,0 +1,46 @@
+.containor{
+  width: 400px;
+  height: 600px;
+  border: 1px solid black ;
+  
+  color: white;
+  font-weight: bold;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr;
+  grid-template-areas: 
+  "top top"
+  "left right"
+  "bottom bottom";
+}
+
+p{
+  margin: 0;
+}
+.top{
+  background-color: red;
+  grid-area: top;
+  font-size: 16px;
+}
+
+.left{
+  background-color: blue;
+  grid-area: left;
+  font-size: 16px;
+  
+
+}
+.right{
+  background-color: green;
+ 
+ grid-area: right;
+  font-size: 16px;
+
+}
+.bottom{
+  grid-area: bottom;
+  background-color: purple;
+  font-size: 16px;
+
+}
